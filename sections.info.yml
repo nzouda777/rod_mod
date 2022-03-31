@@ -1,0 +1,5 @@
+name: rod_mod
+type: module
+description: this module handle theme section
+package: Custom
+core: 8.x
