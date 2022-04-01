@@ -1,12 +1,8 @@
 {
     "name": "nzouda777/rod_mod",
     "description": "this a custom module for drupal dev",
-    "type": "project",
-    "autoload": {
-        "psr-4": {
-            "Nzouda777\\RodMod\\": "src/"
-        }
-    },
+    "type": "drupal-module",
+    "license": "GPL-2.0+",
     "authors": [
         {
             "name": "Rodrigue NZOUDA",
