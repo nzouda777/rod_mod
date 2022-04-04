@@ -1,6 +1,5 @@
 module.exports = {
- "offroad-team-section": "./src/js/sections/offroad-team-section.js",
- 
+    "rod-mod-team-section": "./src/js/sections/rod-mod-team-section.js",
 };
 
 // export default {
