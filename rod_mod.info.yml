@@ -2,4 +2,5 @@ name: rod_mod
 type: module
 description: this module handle theme section
 package: Custom
+core_version_requirement: ^8 || ^9
 core: 8.x
