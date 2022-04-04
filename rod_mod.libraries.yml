@@ -36,8 +36,11 @@ vuejs:
   js:
     https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js: {type: external, minified: true}
 
+
 rod-mod-team-section:
   css:
     theme:
-      layouts/css/offroad-team-section.css: {}
+      layouts/css/rod-mod-team-section.css: {}
+  js:
+    layouts/js/rod-mod-team-section.js: {} 
       
