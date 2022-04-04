@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Drupal\sections\Plugin\Layout\OffroadSection;
+namespace Drupal\rod_mod\Plugin\Layout\OffroadSection;
 
 use Drupal\formatage_models\Plugin\Layout\Sections\FormatageModelsSection;
 
@@ -42,7 +42,7 @@ use Drupal\formatage_models\Plugin\Layout\Sections\FormatageModelsSection;
  */
 
 
-    class TeamSection extends FormatageModelsSection {
+    class RodModTeamSection extends FormatageModelsSection {
 
     }
 ?>
