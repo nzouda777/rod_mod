@@ -1,27 +1,26 @@
 <?php
 
-
 namespace Drupal\rod_mod\Plugin\Layout\OffroadSection;
 
 use Drupal\formatage_models\Plugin\Layout\Sections\FormatageModelsSection;
+use Drupal\bootstrap_styles\StylesGroup\StylesGroupManager;
 
 /**
- * Offroad Team Section 
- * 
+ * Offroad Team Section
+ *
  * @Layout(
- * 
- *  id = "OffroadSection",
- *  label = @Translation("offroad team section"),
- *  category = @Translation("offroad section"),
- *  path = "layouts/offroadSection",
- *  template = "offroad-team-section",
- *  library = "sections/offroad-team-section",
- *  default_region = "slide_section",
- *  regions = {
+ *   id = "rod_mod_team_section",
+ *   label = @Translation("offroad team section"),
+ *   category = @Translation("rod_mod"),
+ *   path = "layouts/sections",
+ *   template = "rod-mod-team-section",
+ *   library = "rod-mod/rod-mod-team-section",
+ *   default_region = "slide_section",
+ *   regions = {
  *      "slider_section" = {
  *          "label" = @Translation("add a slider")
  *      },
- *      "description_section" = { 
+ *      "description_section" = {
  *          "label" = @Translation("add a description")
  *      },
  *      "single_user_img" = {
@@ -36,13 +35,22 @@ use Drupal\formatage_models\Plugin\Layout\Sections\FormatageModelsSection;
  *      "company_description" = {
  *          "label" = @Translation("set company description")
  *      }
- * }
- *  
+ *  }
  * )
+ *
+ *
  */
-
-
-    class RodModTeamSection extends FormatageModelsSection {
-
-    }
-?>
+class RodModTeamSection extends FormatageModelsSection {
+  
+  /**
+   *
+   * {@inheritdoc}
+   * @see \Drupal\formatage_models\Plugin\Layout\FormatageModels::__construct()
+   */
+  public function __construct(array $configuration, $plugin_id, $plugin_definition, StylesGroupManager $styles_group_manager) {
+    // TODO Auto-generated method stub
+    parent::__construct($configuration, $plugin_id, $plugin_definition, $styles_group_manager);
+    $this->pluginDefinition->set('icon', drupal_get_path('module', 'formatage_models') . "/icones/sections/");
+  }
+  
+}
