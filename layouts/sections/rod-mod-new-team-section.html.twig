@@ -1,0 +1,59 @@
+
+{% if content %}
+<section {{ attributes.addClass("offroad-team-section") }} >
+    <div class="back"></div>
+    <div class="container">
+        <div class="row ">
+        {% if content %}
+            <div  {{ attributes.addClass("small-desc col-lg-5") }} >
+             {% if content.company_description %}
+                        <div {{ region_attributes.company_description.addClass("text-descriptor mt-5 ") }}>
+                           {{ content.company_description }} 
+                        </div>
+                            {% endif %}
+               
+                {% if content.company_name %}
+                        <div {{ region_attributes.company_name.addClass("title")}}>
+                           {{ content.company_name }} 
+                        </div>
+                            {% endif %}
+                
+            </div>
+            {% endif %}
+            <div class="col-lg-7 right-green-element">
+                <div class="content-text">
+                   
+                    {% if content %}
+                    <div {{attribute.addClass("single-slide display-block")}}>
+                        <span><i class="quote">
+                            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="50" height="50" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1664 1408"><path fill="" d="M768 832v384q0 80-56 136t-136 56H192q-80 0-136-56T0 1216V512q0-104 40.5-198.5T150 150T313.5 40.5T512 0h64q26 0 45 19t19 45v128q0 26-19 45t-45 19h-64q-106 0-181 75t-75 181v32q0 40 28 68t68 28h224q80 0 136 56t56 136zm896 0v384q0 80-56 136t-136 56h-384q-80 0-136-56t-56-136V512q0-104 40.5-198.5T1046 150t163.5-109.5T1408 0h64q26 0 45 19t19 45v128q0 26-19 45t-45 19h-64q-106 0-181 75t-75 181v32q0 40 28 68t68 28h224q80 0 136 56t56 136z"/></svg>
+                            </i></span>
+                            {% if content.description_section %}
+                        <div {{ region_attributes.description_section.addClass("text-descriptor text-center ")}}>
+                           {{ content.description_section }}
+                        </div>
+                            {% endif %}
+                     
+                            {% if content.single_user_img %}
+                                <div {{ region_attributes.single_user_img.addClass("lutin-pic mt-5") }}>
+                                    {{ content.single_user_img }}
+                                </div>
+                            {% endif %}
+
+                         {% if content.single_user_info %}
+                            <div {{ region_attributes.single_user_info.addClass("single-info text-center mt-3") }}>
+                               {{ content.single_user_info }} 
+                                
+                            </div>
+                         {% endif %}
+                    </div>
+                    {% endif %}
+
+                     
+                 </div>
+            </div>
+        </div>
+    </div>
+   
+</section>
+{% endif %}

@@ -42,5 +42,12 @@ rod-mod-team-section:
     theme:
       layouts/css/rod-mod-team-section.css: {}
   js:
-    layouts/js/rod-mod-team-section.js: {} 
+    layouts/js/rod-mod-team-section.js: {}
+
+rod-mod-new-team-section:
+  css:
+    theme:
+      layouts/css/rod-mod-new-team-section.css: {}
+  js:
+    layouts/js/rod-mod-new-team-section.js: {}  
       
