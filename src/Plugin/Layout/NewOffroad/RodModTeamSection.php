@@ -34,6 +34,9 @@ use Drupal\bootstrap_styles\StylesGroup\StylesGroupManager;
  *      },
  *      "company_description" = {
  *          "label" = @Translation("set company description")
+ *      },
+ *      "profiles" = {
+ *          "label" = @Translation("user comment")
  *      }
  *  }
  * )
