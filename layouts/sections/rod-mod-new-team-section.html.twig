@@ -1,7 +1,13 @@
 
 {% if content %}
 <section {{ attributes.addClass("offroad-team-section") }} >
-    <div class="back"></div>
+                    {% if content %} 
+                        {% if content.background %}
+                            <div {{ region_attributes.background.addClass("back")}}>
+                                {{ content.background }}
+                            </div>
+                        {% endif %}
+                    {% endif %}
     <div class="container">
         <div class="row ">
         {% if content %}

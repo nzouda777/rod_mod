@@ -37,6 +37,9 @@ use Drupal\bootstrap_styles\StylesGroup\StylesGroupManager;
  *      },
  *      "profiles" = {
  *          "label" = @Translation("user comment")
+ *      },
+ *      "background" = {
+ *          "label" = @Translation("set your background")
  *      }
  *  }
  * )
