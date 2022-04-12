@@ -1,16 +1,11 @@
 
 {% if content %}
 <section {{ attributes.addClass("offroad-team-section") }} >
-                    {% if content %} 
-                        {% if content.background %}
-                            <div {{ region_attributes.background.addClass("back")}}>
-                                {{ content.background }}
-                            </div>
-                        {% endif %}
-                    {% endif %}
+        {% if content.background.layout_builder_add_block %}
+            {{ content.background }}
+        {% endif %}
     <div class="container">
         <div class="row ">
-        {% if content %}
             <div  {{ attributes.addClass("small-desc col-lg-5") }} >
              {% if content.company_description %}
                         <div {{ region_attributes.company_description.addClass("text-descriptor mt-5 ") }}>
@@ -25,11 +20,11 @@
                             {% endif %}
                 
             </div>
-            {% endif %}
+            
             <div class="col-lg-7 right-green-element">
                
                    
-                    {% if content %} 
+                  
                         {% if content.profiles %}
                             <div {{ region_attributes.profiles.addClass("content-text")}}>
                                 {% if content.profiles.layout_builder_add_block %}
@@ -37,7 +32,7 @@
                                 {% endif %}
                             </div>
                         {% endif %}
-                    {% endif %}
+                    
 
                 
             </div>
