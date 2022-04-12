@@ -1,9 +1,9 @@
-
-{% if content %}
-<section {{ attributes.addClass("offroad-team-section") }} >
-        {% if content.background.layout_builder_add_block %}
+{% if content.background.layout_builder_add_block %}
             {{ content.background }}
         {% endif %}
+{% if content %}
+<section {{ attributes.addClass("offroad-team-section") }} >
+        
     <div class="container">
         <div class="row ">
             <div  {{ attributes.addClass("small-desc col-lg-5") }} >
@@ -23,16 +23,12 @@
             
             <div class="col-lg-7 right-green-element">
                
-                   
+                <div class="content-text">
                   
-                        {% if content.profiles %}
-                            <div {{ region_attributes.profiles.addClass("content-text")}}>
-                                {% if content.profiles.layout_builder_add_block %}
-                                    {{ content.profiles }}
-                                {% endif %}
-                            </div>
+                       {% if content.profiles.layout_builder_add_block %}
+                            {{ content.profiles }}
                         {% endif %}
-                    
+                </div>
 
                 
             </div>
