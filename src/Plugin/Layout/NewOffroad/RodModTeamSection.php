@@ -17,8 +17,8 @@ use Drupal\bootstrap_styles\StylesGroup\StylesGroupManager;
  *   library = "rod_mod/rod-mod-new-team-section",
  *   default_region = "slide_section",
  *   regions = {
- *      "slider_section" = {
- *          "label" = @Translation("add a slider")
+ *      "profession" = {
+ *          "label" = @Translation("add user profession")
  *      },
  *      "description_section" = {
  *          "label" = @Translation("add a description")
