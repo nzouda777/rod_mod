@@ -13,7 +13,7 @@ use Drupal\bootstrap_styles\StylesGroup\StylesGroupManager;
  *  id = "rod_mod_user_comment_section",
  *  label = @Translation("Offroad user comment section"),
  *  category = @Translation("rod_mod"),
- *  path = "layouts/sections/teasers",
+ *  path = "layouts/teasers",
  *  template = "rod-mod-comment-user",
  *  library = "rod_mod/rod-mod-comment-user",
  *  regions = {
