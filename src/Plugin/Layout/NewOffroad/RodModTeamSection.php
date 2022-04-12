@@ -17,17 +17,8 @@ use Drupal\bootstrap_styles\StylesGroup\StylesGroupManager;
  *   library = "rod_mod/rod-mod-new-team-section",
  *   default_region = "slide_section",
  *   regions = {
- *      "profession" = {
- *          "label" = @Translation("add user profession")
- *      },
  *      "description_section" = {
  *          "label" = @Translation("add a description")
- *      },
- *      "single_user_img" = {
- *          "label" = @Translation("add user image")
- *      },
- *      "single_user_info" = {
- *          "label" = @Translation("set user info")
  *      },
  *      "company_name" = {
  *          "label" = @Translation("set the company name")
@@ -35,9 +26,7 @@ use Drupal\bootstrap_styles\StylesGroup\StylesGroupManager;
  *      "company_description" = {
  *          "label" = @Translation("set company description")
  *      },
- *      "profiles" = {
- *          "label" = @Translation("user comment")
- *      },
+ *     
  *      "background" = {
  *          "label" = @Translation("set your background")
  *      }

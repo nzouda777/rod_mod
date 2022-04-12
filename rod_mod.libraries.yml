@@ -50,4 +50,11 @@ rod-mod-new-team-section:
       layouts/css/rod-mod-new-team-section.css: {}
   js:
     layouts/js/rod-mod-new-team-section.js: {}  
+
+rod-mod-comment-user:
+  css:
+    theme:
+      layouts/css/rod-mod-comment-user.css: {}
+  js:
+    layouts/js/rod-mod-comment-user.js: {}  
       

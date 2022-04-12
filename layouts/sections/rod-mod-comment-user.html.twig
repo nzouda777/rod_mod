@@ -1,0 +1,31 @@
+ <div class="content-text">
+                     <div {{ attributes.addClass("single-slide display-block") }} >
+                        <span><i class="quote">
+                            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="50" height="50" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1664 1408"><path fill="" d="M768 832v384q0 80-56 136t-136 56H192q-80 0-136-56T0 1216V512q0-104 40.5-198.5T150 150T313.5 40.5T512 0h64q26 0 45 19t19 45v128q0 26-19 45t-45 19h-64q-106 0-181 75t-75 181v32q0 40 28 68t68 28h224q80 0 136 56t56 136zm896 0v384q0 80-56 136t-136 56h-384q-80 0-136-56t-56-136V512q0-104 40.5-198.5T1046 150t163.5-109.5T1408 0h64q26 0 45 19t19 45v128q0 26-19 45t-45 19h-64q-106 0-181 75t-75 181v32q0 40 28 68t68 28h224q80 0 136 56t56 136z"/></svg>
+                            </i></span>
+                                {% if content.profiles %}
+                            <div {{ region_attributes.profiles.addClass("text-descriptor text-center")}}>
+                                    {{ content.profiles }}
+                            </div>
+                                {% endif %}
+
+                                {% if content.single_user_img.layout_builder_add_block %}
+                                    {{ content.single_user_img }}
+                                {% endif %}
+                                {% if content.single_user_img|layout_bg_img %}
+                                    {% set attributes=attributes.merge(content.single_user_img|layout_bg_img) %}
+                                {% endif %}
+                                
+                            {% if content.single_user_info %}
+                                <div {{ region_attributes.single_user_info.addClass(" single-info text-center mt-3 ")}}>
+                                    {{ content.single_user_info }}
+                                </div>
+                            {% endif %}
+
+                            {% if content.profession %}
+                                <div {{ region_attributes.profession.addClass('text-center lutin-poste')}}>
+                                    {{ content.profession }}
+                                </div>
+                            {% endif %}
+                     </div>
+                </div>
