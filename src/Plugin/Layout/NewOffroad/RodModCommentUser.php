@@ -13,7 +13,7 @@ use Drupal\bootstrap_styles\StylesGroup\StylesGroupManager;
  *  id = "rod_mod_user_comment_section",
  *  label = @Translation("Offroad user comment section"),
  *  category = @Translation("rod_mod"),
- *  path = "layouts/sections",
+ *  path = "layouts/sections/teasers",
  *  template = "rod-mod-comment-user",
  *  library = "rod_mod/rod-mod-comment-user",
  *  regions = {
@@ -23,7 +23,7 @@ use Drupal\bootstrap_styles\StylesGroup\StylesGroupManager;
  *      "single_user_img" = {
  *          "label" = @Translation("add user image")
  *      },
- *      "profiles" = {
+ *      "comment" = {
  *          "label" = @Translation("user comment")
  *      },
  *      "single_user_info" = {
@@ -34,7 +34,7 @@ use Drupal\bootstrap_styles\StylesGroup\StylesGroupManager;
  * ) 
  */
 
-class RodModCommentUser extends FormatageModelsSection {
+class RodModCommentUser extends FormatageModelsTeasers {
   
     /**
      *
