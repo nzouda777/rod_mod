@@ -32,7 +32,9 @@
                     {% if content %} 
                         {% if content.profiles %}
                             <div {{ region_attributes.profiles.addClass("content-text")}}>
-                                {{ content.profiles }}
+                                {% if content.profiles.layout_builder_add_block %}
+                                    {{ content.profiles }}
+                                {% endif %}
                             </div>
                         {% endif %}
                     {% endif %}
