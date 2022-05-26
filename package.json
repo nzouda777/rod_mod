@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "wbu-atomique": "file:../../../../../wbu-atomique-theme-building/wbu-atomique"
+  }
+}

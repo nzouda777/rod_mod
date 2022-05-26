@@ -1,0 +1,15 @@
+{
+    "name": "nzouda777/rod_mod",
+    "description": "this a custom module for drupal dev",
+    "type": "drupal-module-custom",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Rodrigue NZOUDA",
+            "email": "nzoudarodrigue@mail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+    }
+}
