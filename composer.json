@@ -1,7 +1,7 @@
 {
     "name": "nzouda777/rod_mod",
     "description": "this a custom module for drupal dev",
-    "type": "drupal-module-custom",
+    "type": "drupal-module",
     "license": "GPL-2.0+",
     "authors": [
         {
@@ -11,6 +11,5 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "stephane888/formatage_models": "dev-1x|^3.2"
     }
 }
