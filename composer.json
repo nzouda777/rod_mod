@@ -10,5 +10,7 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "stephane888/formatage_models": "dev-1x|^3.2"
+    }
 }
