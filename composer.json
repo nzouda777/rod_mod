@@ -1,6 +1,6 @@
 {
     "name": "nzouda777/rod_mod",
-    "description": "this a custom private module for drupal developer",
+    "description": "this a custom module for drupal dev",
     "type": "drupal-module-custom",
     "license": "GPL-2.0+",
     "authors": [
