@@ -37,15 +37,12 @@ vuejs:
     https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js: {type: external, minified: true}
 
 
-<<<<<<< HEAD
-=======
-rod-mod-team-section:
+rod-mod-locksmithing-services-section:
   css:
     theme:
-      layouts/css/rod-mod-team-section.css: {}
+      layouts/css/rod-mod-locksmithing-services-section.css: {}
   js:
-    layouts/js/rod-mod-team-section.js: {}
->>>>>>> 179890ab4aa8dded5743af69f58adb92d4fb81d5
+    layouts/js/rod-mod-locksmithing-services-section.js: {}
 
 rod-mod-new-team-section:
   css:

@@ -2,7 +2,7 @@
 
 namespace Drupal\rod_mod\Plugin\Layout\NewOffroad;
 
-use Drupal\formatage_models\Plugin\Layout\Sections\FormatageModelsSection;
+use Drupal\formatage_models\src\Plugin\Layout\Sections\FormatageModelsSection;
 use Drupal\bootstrap_styles\StylesGroup\StylesGroupManager;
 
 /**
