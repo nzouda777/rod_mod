@@ -1,1 +1,0 @@
-import "@stephane888/wbu-atomique/scss/organisme/sections/theme_builder/offrord-team/team-section.scss"
