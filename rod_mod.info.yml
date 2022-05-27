@@ -4,3 +4,5 @@ description: this module handle website section
 package: Custom
 core_version_requirement: ^8 || ^9
 core: 8.x
+dependencies:
+ -formatage_models
