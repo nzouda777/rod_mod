@@ -30,7 +30,7 @@
      * )
      */
 
-class RodModLockSmithServices extends FormatageMection {
+class RodModLockSmithServices extends FormatageModelsSection {
          /**
           * {@inheritdoc}
           *@see \Drupal\formatage_models\Plugin\Layout\FormatageModels::__construct()
