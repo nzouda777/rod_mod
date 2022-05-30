@@ -1,0 +1,67 @@
+{% if content %}
+<section class="lock-smithing-service-handler overflow-hidden container">
+    <div class="row">
+        <div class="col-lg-6 ">
+   
+            <div class="img-handler ">
+                {% if content.descriptive_picture.layout_builder_add_block %}
+                    {{ content.descriptive_picture }}
+                {% endif %}
+                
+            </div>
+        </div>
+        <div class="col-lg-6 lock-info-section">
+            {% if content.section_title %}
+            <div {{ attributes.addClass("title")}} >
+                <p {{ region_attributes.section_title.addClass("")}}>
+                    {{ content.section_title}}
+                </p>
+            {% endif %}
+            </div>
+            {% if content %}
+            <div {{attributes.addClass("description")}}>
+                
+                <p {{ region_attributes.descriptive_text.addClass("")}}>
+                    {{ content.descriptive_text}}
+                </p>
+            {% endif %}
+            </div>
+            <div class=" lists  ">
+                <div class="col-lg-6 col-md-12  all-services ">
+                    <ul class="list-services">
+                        <li class="element">
+                            Master key systems
+                        </li>
+                        <li class="element">
+                            High security cylinders
+                        </li>
+                        <li class="element">
+                            Changing and rekeying locks
+                        </li>
+                        <li class="element">
+                            Keyless entry systems
+                        </li>
+                    </ul>
+                    
+                </div>
+                <div class="col-lg-7 col-md-12 all-services  ">
+                    <ul class="list-services">
+                        <li class="element">
+                            Fast lock out service
+                        </li>
+                        <li class="element">
+                            Installation and repair of locks
+                        </li>
+                        <li class="element">
+                            Window locks
+                        </li>
+                        <li class="element">
+                            Deadlocks & Padlocks
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}

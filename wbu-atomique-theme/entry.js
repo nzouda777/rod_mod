@@ -1,6 +1,7 @@
 module.exports = {
     "rod-mod-new-team-section": "./src/js/sections/rod-mod-new-team-section.js",
     "rod-mod-comment-user": "./src/js/teasers/rod-mod-comment-user.js",
+    "rod-mod-locksmithing-services-section": "./src/js/sections/rod-mod-locksmithing-services-section.js"
 };
 
 // export default {
