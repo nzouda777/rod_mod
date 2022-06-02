@@ -12,7 +12,7 @@
      *   id = "rod_mod_locksmithing_services_section",
      *   label = @Translation("Locksmithing Services section"),
      *   category = @Translation("rod_mod"),
-     *   path = "layouts/sections",
+     *   path = "layouts/sections/hotlock",
      *   template = "rod-mod-locksmithing-services",
      *   library = "rod_mod/rod-mod-locksmithing-services-section",
      *   default_region = "img_descriptor",

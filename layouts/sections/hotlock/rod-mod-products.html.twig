@@ -1,0 +1,116 @@
+{% if content %}
+<section class="products-section-handler container">
+    <div class="section-title">
+        <p>Security Products</p>
+    </div>
+    <div class="all-products-area  row ">
+        <div class="single-product  d-block col-lg-3 col-md-5 col-sm-7">
+            <div class="prod-img">
+              <div {{ attributes.addClass("img")}}>
+                {% if content.product_img.layout_builder_add_block %}
+                    {{ content.product_img }}
+                {% endif %}
+              </div>
+            </div>
+            {% if content.product_title %}
+                <div {{ attributes.addClass("prod-name")}}>
+                <p {{ region_attributes.product_title }}>
+                    {{ content.product_title }}
+                </p>
+                </div>
+            {% endif %}
+            {% if content.product_amount %}
+                <div {{ attributes.addClass("prod-amount") }}>
+                    <p {{ region_attributes.product_amount }}>
+                        {{ content.product_amount }}
+                    </p>
+                </div>
+            {% endif %}
+            <div class="buy-btn">
+                <a href="" class="link">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="single-product  d-block col-lg-3 col-md-5 col-sm-7">
+           <div class="prod-img">
+              <div {{ attributes.addClass("img")}}>
+                {% if content.product_img.layout_builder_add_block %}
+                    {{ content.product_img }}
+                {% endif %}
+              </div>
+            </div>
+            {% if content.product_title %}
+                <div {{ attributes.addClass("prod-name")}}>
+                <p {{ region_attributes.product_title }}>
+                    {{ content.product_title }}
+                </p>
+                </div>
+            {% endif %}
+            {% if content.product_amount %}
+                <div {{ attributes.addClass("prod-amount") }}>
+                    <p {{ region_attributes.product_amount }}>
+                        {{ content.product_amount }}
+                    </p>
+                </div>
+            {% endif %}
+            <div class="buy-btn">
+                <a href="" class="link">Buy Now</a>
+            </div>
+        </div>
+        <div class="single-product  d-block col-lg-3 col-md-5 col-sm-7">
+           <div class="prod-img">
+                <div class="sticker">SALE!</div>
+              <div {{ attributes.addClass("img")}}>
+                {% if content.product_img.layout_builder_add_block %}
+                    {{ content.product_img }}
+                {% endif %}
+              </div>
+            </div>
+            {% if content.product_title %}
+                <div {{ attributes.addClass("prod-name")}}>
+                <p {{ region_attributes.product_title }}>
+                    {{ content.product_title }}
+                </p>
+                </div>
+            {% endif %}
+            {% if content.product_amount %}
+                <div {{ attributes.addClass("prod-amount") }}>
+                    <p {{ region_attributes.product_amount }}>
+                        {{ content.product_amount }}
+                    </p>
+                </div>
+            {% endif %}
+            <div class="buy-btn">
+                <a href="" class="link">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="single-product  d-block col-lg-3 col-md-5 col-sm-7">
+            <div class="prod-img">
+              <div {{ attributes.addClass("img")}}>
+                {% if content.product_img.layout_builder_add_block %}
+                    {{ content.product_img }}
+                {% endif %}
+              </div>
+            </div>
+            {% if content.product_title %}
+                <div {{ attributes.addClass("prod-name")}}>
+                <p {{ region_attributes.product_title }}>
+                    {{ content.product_title }}
+                </p>
+                </div>
+            {% endif %}
+            {% if content.product_amount %}
+                <div {{ attributes.addClass("prod-amount") }}>
+                    <p {{ region_attributes.product_amount }}>
+                        {{ content.product_amount }}
+                    </p>
+                </div>
+            {% endif %}
+            <div class="buy-btn">
+                <a href="" class="link">Buy Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}

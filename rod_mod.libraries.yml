@@ -36,20 +36,23 @@ vuejs:
   js:
     https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js: {type: external, minified: true}
 
-
+#hotlock intergration
 rod-mod-locksmithing-services-section:
   css:
     theme:
-      layouts/css/rod-mod-locksmithing-services-section.css: {}
+      layouts/css/hotlock/rod-mod-locksmithing-services-section.css: {}
   js:
-    layouts/js/rod-mod-locksmithing-services-section.js: {}
+    layouts/js/hotlock/rod-mod-locksmithing-services-section.js: {}
 
-rod-mod-new-team-section:
+rod-mod-products:
   css:
     theme:
-      layouts/css/rod-mod-new-team-section.css: {}
+      layouts/css/hotlock/rod-mod-products.css: {}
   js:
-    layouts/js/rod-mod-new-team-section.js: {}  
+    layouts/js/hotlock/rod-mod-products.js: {}
+
+
+
 
 rod-mod-comment-user:
   css:
@@ -57,4 +60,10 @@ rod-mod-comment-user:
       layouts/css/rod-mod-comment-user.css: {}
   js:
     layouts/js/rod-mod-comment-user.js: {}  
-      
+
+rod-mod-new-team-section:
+  css:
+    theme:
+      layouts/css/rod-mod-new-team-section.css: {}
+  js:
+    layouts/js/rod-mod-new-team-section.js: {}
