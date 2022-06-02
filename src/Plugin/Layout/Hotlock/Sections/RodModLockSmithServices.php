@@ -1,6 +1,6 @@
 <?php
 
-    namespace Drupal\rod_mod\Plugin\Layout\Hotlock;
+    namespace Drupal\rod_mod\Plugin\Layout\Hotlock\Sections;
     
     use Drupal\formatage_models\Plugin\Layout\Sections\FormatageModelsSection;
     use Drupal\bootstrap_styles\StylesGroup\StylesGroupManager;
@@ -37,7 +37,7 @@ class RodModLockSmithServices extends FormatageModelsSection {
           */
           public function __construct(array $configuration, $plugin_id, $plugin_definition, StylesGroupManager $styles_group_manager){
               parent::__construct($configuration, $plugin_id, $plugin_definition, $styles_group_manager);
-              $this->pluginDefinition->set('icon', drupal_get_path('module', 'rod_mod') . "/icones/sections/locksmithservices.png");
+              $this->pluginDefinition->set('icon', drupal_get_path('module', 'rod_mod') );
           }
 }
 ?>

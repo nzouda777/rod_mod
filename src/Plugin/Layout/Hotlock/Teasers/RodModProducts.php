@@ -1,8 +1,8 @@
 <?php
 
-    namespace Drupal\rod_mod\Plugin\Layout\Hotlock;
+    namespace Drupal\rod_mod\Plugin\Layout\Hotlock\Teasers;
 
-    use Drupal\formatage_models\Plugin\Layout\Sections\FormatageModelsSection;
+    use Drupal\formatage_models\Plugin\Layout\Products\ProductTeaser;
     use Drupal\bootstrap_styles\StylesGroup\StylesGroupManager;
 
     /**
@@ -30,14 +30,16 @@
      *  )
      */
 
-    class  RodModProducts extends FormatageModelsSection{
+    class  RodModProducts extends ProductTeaser{
         /**
           * {@inheritdoc} 
           * @see \Drupal\formatage_models\Plugin\Layout\FormatageModels:: __construct()
         */
-        public function __construct(array $configuration, $plugin_id, $plugin_definition, StylesGroupManager $style_group_manager){
-            parent::__construct($configuration, $plugin_id, $plugin_definition, $style_group_manager);
-            $this->pluginDefinition->set('icon', drupal_get_path('module', 'rod_mod') . "/icones/sections/products.png");
+        public function __construct(array $configuration, $plugin_id, $plugin_definition)
+        {
+            // TODO Auto-generated method stub
+            parent::__construct($configuration, $plugin_id, $plugin_definition);
+            $this->pluginDefinition->set('icon', drupal_get_path('module', 'formatage_models') . "/icones/formatage-models-product-teaser.png");
         }
     }
 ?>

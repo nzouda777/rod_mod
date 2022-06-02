@@ -51,6 +51,12 @@ rod-mod-products:
   js:
     layouts/js/hotlock/rod-mod-products.js: {}
 
+rod-mod-footer:
+  css:
+    theme:
+      layouts/css/hotlock/rod-mod-footer.css: {}
+  js:
+    layouts/js/hotlock/rod-mod-footer.js: {}
 
 
 
