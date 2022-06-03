@@ -65,6 +65,19 @@ rod-mod-welcome:
   js:
     layouts/js/hotlock/rod-mod-welcome.js: {}
 
+rod-mod-team:
+  css:
+    theme:
+      layouts/css/hotlock/rod-mod-team.css: {}
+  js:
+    layouts/js/hotlock/rod-mod-team.js: {}
+
+rod-mod-services-section:
+  css:
+    theme:
+      layouts/css/hotlock/rod-mod-services-section.css: {}
+  js:
+    layouts/js/hotlock/rod-mod-services-section.js: {}
 
 
 rod-mod-comment-user:
