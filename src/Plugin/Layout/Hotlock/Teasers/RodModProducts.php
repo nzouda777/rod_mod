@@ -10,7 +10,7 @@
      * 
      *  @Layout(
      *    id = "rod_mod_products_section",
-     *    label = @Translation("Product Section"),
+     *    label = @Translation("Product Teaser"),
      *    category = @Translation("rod_mod"),
      *    path = "layouts/sections/hotlock",
      *    template = "rod-mod-products",

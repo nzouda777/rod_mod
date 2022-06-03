@@ -58,6 +58,13 @@ rod-mod-footer:
   js:
     layouts/js/hotlock/rod-mod-footer.js: {}
 
+rod-mod-welcome:
+  css:
+    theme:
+      layouts/css/hotlock/rod-mod-welcome.css: {}
+  js:
+    layouts/js/hotlock/rod-mod-welcome.js: {}
+
 
 
 rod-mod-comment-user:

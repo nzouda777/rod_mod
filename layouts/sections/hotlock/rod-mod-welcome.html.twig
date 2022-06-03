@@ -1,0 +1,27 @@
+{% if content %}
+<section class="welcome-section-handler">
+    <div class="welcome-elements row">
+        <div class="col-lg-5 text-element">
+            <div class="section-title">
+               <p>
+                Welcome
+               </p>
+            </div>
+
+            {% if content.welcome_words %}
+                <div {{region_attribute.welcome_words.addClass("welcome-words")}}>
+                    {{ content.welcome_words }}
+                </div>
+            {% endif %}
+            <div class="read-btn">
+                <a href="" class="link">READ MORE</a>
+            </div>
+        </div>
+          <div {{ attributes.addClass("col-lg-5 img-element")}}>
+                {% if content.welcome_img.layout_builder_add_block %}
+                    {{ content.welcome_img }}
+                {% endif %}
+            </div>
+    </div>
+</section>
+{% endif %}
