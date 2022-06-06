@@ -158,16 +158,7 @@ html {
   justify-content: center;
   align-items: center;
 }
-.our-services-handler .services-column .all-service-item .single-service-items .item-image::before {
-  content: "";
-  position: absolute;
-  opacity: 0.6;
-  height: 100%;
-  width: 107%;
-}
-.our-services-handler .services-column .all-service-item .single-service-items .item-image:hover::before {
-  background: #0f103e;
-}
+
 .our-services-handler .services-column .all-service-item .single-service-items .item-image:hover .element {
   display: block;
   transition: cubic-bezier(0.165, 0.84, 0.44, 1);
