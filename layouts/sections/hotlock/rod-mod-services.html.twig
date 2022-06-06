@@ -21,7 +21,9 @@
                        </div>
                         <div {{ attributes.addClass("img")}} >
                             {% if content.service_picture %}
-                                {{ content.service_picture }}
+                                <div {{ region_attribute.service_picture }}>
+                                    {{ content.service_picture }}
+                                </div>
                             {% endif %}
                         </div>
                     
@@ -69,7 +71,9 @@
                        </div>
                     <div {{ attributes.addClass("img")}} >
                             {% if content.service_picture %}
-                                {{ content.service_picture }}
+                                <div {{ region_attribute.service_picture }}>
+                                    {{ content.service_picture }}
+                                </div>
                             {% endif %}
                         </div>
                     <div class="mask"></div>
@@ -115,7 +119,9 @@
                        </div>
                        <div {{ attributes.addClass("img")}} >
                             {% if content.service_picture %}
-                                {{ content.service_picture }}
+                                <div {{ region_attribute.service_picture }}>
+                                    {{ content.service_picture }}
+                                </div>
                             {% endif %}
                         </div>
                     <div class="mask"></div>
