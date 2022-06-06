@@ -1,5 +1,5 @@
 {% if content %}
-<section class="our-services-handler container ">
+<section {{ attributes.addClass("our-services-handler container") }} >
     <h6 class="section-title">Our services</h6>
     <div class="services-column">
         <div class="all-service-item ">
@@ -19,13 +19,11 @@
                         </span>
                         
                        </div>
-                        <div {{ attributes.addClass("img")}} >
                             {% if content.service_picture %}
-                                <div {{ region_attribute.service_picture }}>
+                                <div {{ region_attribute.service_picture.addClass("img") }}>
                                     {{ content.service_picture }}
                                 </div>
                             {% endif %}
-                        </div>
                     
                     <div class="mask"></div>
                     <a href="https://hotlock.axiomthemes.com/services/car-locksmith/" aria-hidden="true" class="icons"><span></span><span></span><span></span></a>
@@ -33,20 +31,16 @@
                 <div class="info-items">
 
                      {% if content.service_title %}
-                        <div {{ attributes.addClass("item-title")}}>
                         <h4>
-                            <a {{ region_attributes.service_title }}>
+                            <a {{ region_attributes.service_title.addClass("item-title") }}>
                                 {{ content.service_title }}
                             </a>
                         </h4>
-                        </div>
                     {% endif %}
                     {% if content.service_description %}
-                        <div {{ attributes.addClass("descriptor-item")}}>
-                            <p {{ region_attributes.service_description }}>
+                            <p {{ region_attributes.service_description.addClass("descriptor-item") }}>
                                 {{ content.service_description }}
                             </p>
-                        </div>
                     {% endif %}
                     <div class="read-btn">
                         <a href="" class="link">READ MORE</a>
@@ -69,39 +63,35 @@
                         </span>
                         
                        </div>
-                    <div {{ attributes.addClass("img")}} >
                             {% if content.service_picture %}
-                                <div {{ region_attribute.service_picture }}>
+                                <div {{ region_attribute.service_picture.addClass("img") }}>
                                     {{ content.service_picture }}
                                 </div>
                             {% endif %}
-                        </div>
+                    
                     <div class="mask"></div>
                     <a href="https://hotlock.axiomthemes.com/services/car-locksmith/" aria-hidden="true" class="icons"><span></span><span></span><span></span></a>
                 </div>
                 <div class="info-items">
+
                      {% if content.service_title %}
-                        <div {{ attributes.addClass("item-title")}}>
                         <h4>
-                            <a {{ region_attributes.service_title }}>
+                            <a {{ region_attributes.service_title.addClass("item-title") }}>
                                 {{ content.service_title }}
                             </a>
                         </h4>
-                        </div>
                     {% endif %}
                     {% if content.service_description %}
-                        <div {{ attributes.addClass("descriptor-item")}}>
-                            <p {{ region_attributes.service_description }}>
+                            <p {{ region_attributes.service_description.addClass("descriptor-item") }}>
                                 {{ content.service_description }}
                             </p>
-                        </div>
                     {% endif %}
                     <div class="read-btn">
                         <a href="" class="link">READ MORE</a>
                     </div>
                 </div>
             </div>
-            <div class="single-service-items mb-5  ">
+            <div class="single-service-items mb-5 d-block  ">
                 <div class="item-image">
                     <div class="element text-center">
                         <span class="icon">
@@ -117,32 +107,28 @@
                         </span>
                         
                        </div>
-                       <div {{ attributes.addClass("img")}} >
                             {% if content.service_picture %}
-                                <div {{ region_attribute.service_picture }}>
+                                <div {{ region_attribute.service_picture.addClass("img") }}>
                                     {{ content.service_picture }}
                                 </div>
                             {% endif %}
-                        </div>
+                    
                     <div class="mask"></div>
                     <a href="https://hotlock.axiomthemes.com/services/car-locksmith/" aria-hidden="true" class="icons"><span></span><span></span><span></span></a>
                 </div>
                 <div class="info-items">
+
                      {% if content.service_title %}
-                        <div {{ attributes.addClass("item-title")}}>
                         <h4>
-                            <a {{ region_attributes.service_title }}>
+                            <a {{ region_attributes.service_title.addClass("item-title") }}>
                                 {{ content.service_title }}
                             </a>
                         </h4>
-                        </div>
                     {% endif %}
                     {% if content.service_description %}
-                        <div {{ attributes.addClass("descriptor-item")}}>
-                            <p {{ region_attributes.service_description }}>
+                            <p {{ region_attributes.service_description.addClass("descriptor-item") }}>
                                 {{ content.service_description }}
                             </p>
-                        </div>
                     {% endif %}
                     <div class="read-btn">
                         <a href="" class="link">READ MORE</a>
