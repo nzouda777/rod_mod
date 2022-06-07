@@ -9,7 +9,7 @@
             "email": "nzoudarodrigue@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "prefer-stable",
     "require": {
         "stephane888/formatage_models": "dev-3x | ^3.2"
     }
