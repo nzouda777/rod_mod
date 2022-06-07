@@ -11,8 +11,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "stephane888/formatage_models": "dev-3x | ^3.2",
-        "drupal/bootstrap_layout_builder": "^2.0",
-        "stephane888/htmlbootstrap": "^1.2 | dev-1x"
+        "stephane888/formatage_models": "dev-3x | ^3.2"
     }
 }
+
+
