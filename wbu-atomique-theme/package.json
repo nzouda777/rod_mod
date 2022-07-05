@@ -47,11 +47,11 @@
   ],
   "dependencies": {
     "@babel/preset-env": "^7.15.6",
-    "@stephane888/wbu-atomique": "file:../../../../../../wbu-atomique-theme-building/wbu-atomique",
+    "@stephane888/wbu-atomique": "file:/siteweb/drupal9test2/wbu-atomique-theme-building/wbu-atomique",
     "bootstrap": "^4.6.0",
     "image-webpack-loader": "^8.1.0",
     "imagemin": "^7.0.1",
     "swiper": "^7.0.8",
-    "wbu-atomique": "file:../../../../../../wbu-atomique-theme-building/wbu-atomique"
+    "wbu-atomique": "file:/siteweb/drupal9test2/wbu-atomique-theme-building/wbu-atomique"
   }
 }

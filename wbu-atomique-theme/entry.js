@@ -6,7 +6,9 @@ module.exports = {
     //"rod-mod-footer": "./src/js/sections/hotlock/rod-mod-footer.js",
     //"rod-mod-welcome": "./src/js/teasers/hotlock/rod-mod-welcome.js",
     //"rod-mod-team": "./src/js/teasers/hotlock/rod-mod-team.js",
-    "rod-mod-services-section" : "./src/js/sections/hotlock/rod-mod-services-section.js"
+    //"rod-mod-services-section" : "./src/js/sections/hotlock/rod-mod-services-section.js",
+    //"rod-mod-testimony-section": "./src/js/sections/spiriit/rod-mod-testimony-section.js",
+    "rod-mod-expertise-section": "./src/js/sections/spiriit/rod-mod-expertise-section.js"
 };
 
 // export default {

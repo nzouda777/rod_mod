@@ -93,3 +93,20 @@ rod-mod-new-team-section:
       layouts/css/rod-mod-new-team-section.css: {}
   js:
     layouts/js/rod-mod-new-team-section.js: {}
+
+
+#layouts for spiriit website
+
+rod-mod-testimony-section:
+  css:
+    theme:
+      layouts/css/spiriit/rod-mod-testimony-section.css: {}
+  js:
+    layouts/js/spiriit/rod-mod-testimony-section.js: {}
+
+rod-mod-expertise-section:
+  css:
+    theme:
+      layouts/css/spiriit/rod-mod-expertise-section.css: {}
+  js:
+    layouts/js/spiriit/rod-mod-expertise-section.js: {}
