@@ -4,18 +4,18 @@
     <div class="row text-descs">
       <div class="col-lg-7 info">
       {% if content.section_title %}
-                    <div {{region_attribute.section_title.addClass('subtitle')}}>
+                    <div {{region_attributes.section_title.addClass('subtitle')}}>
                         {{ content.section_title }}
                     </div>
                 {% endif %}
                 {% if content.title %}
-                    <h2 {{region_attribute.title.addClass('brief-desc')}}>
+                    <h2 {{region_attributes.title.addClass('brief-desc')}}>
                         {{ content.title }}
                     </h2>
                 {% endif %}
 
                 {% if content.small_desc %}
-                    <h2 {{region_attribute.small_desc.addClass('content')}}>
+                    <h2 {{region_attributes.small_desc.addClass('content')}}>
                         {{ content.small_desc }}
                     </h2>
                 {% endif %}
@@ -23,7 +23,7 @@
       <div class="col-lg-4 _img-handler">
 
                 {% if content.lutin_img %}
-                    <h2 {{region_attribute.lutin_img.addClass('img-fluid')}}>
+                    <h2 {{region_attributes.lutin_img.addClass('img-fluid')}}>
                         {{ content.lutin_img }}
                     </h2>
                 {% endif %}
