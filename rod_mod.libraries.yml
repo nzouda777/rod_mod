@@ -110,3 +110,10 @@ rod-mod-expertise-section:
       layouts/css/spiriit/rod-mod-expertise-section.css: {}
   js:
     layouts/js/spiriit/rod-mod-expertise-section.js: {}
+
+rod-mod-spiriit-services-teaser:
+  css:
+    theme:
+      layouts/css/spiriit/rod-mod-spiriit-services-teaser.css: {}
+  js:
+    layouts/js/spiriit/rod-mod-spiriit-services-teaser.js: {}

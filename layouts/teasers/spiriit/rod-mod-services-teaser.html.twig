@@ -1,0 +1,125 @@
+{% if content %}
+<div class="services-teaser-handler" {{ attributes.addClass("testimony-section-handler")}} >
+    <div class="container ">
+        <div class="row">
+            <div class="service1  col-lg-3 col-md-6 col-sm-12">
+                <div class="single-service">
+                    <div class="png_desc">
+                    <img class="_png" src="https://www.spiriit.com/app/uploads/2021/02/yellow_star.svg" data-src="https://www.spiriit.com/app/uploads/2021/02/yellow_star.svg" data-srcset="https://www.spiriit.com/app/uploads/2021/02/yellow_star.svg 1280w">
+                    </div>
+                    {% if content.service_title %}
+                        <div {{region_attribute.service_title.addClass('service-title')}}>
+                                {{ content.service_title }}
+                        </div>
+                    {% endif %}
+
+                    {% if content.service_desc %}
+                        <p {{region_attribute.service_desc.addClass('service-desc')}}>
+                                {{ content.service_desc }}
+                        </p>
+                    {% endif %}
+                    
+                    <div class="read-more">
+
+                    {% if content.more_link %}
+                        <a {{region_attribute.more_link.addClass('more-link')}}>
+                                {{ content.more_link }}
+                        </a>
+                    {% endif %}
+                         <svg class="svg" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12h16m-7-7l7 7l-7 7"/></svg>
+                    </div>
+                   
+                </div>
+                
+            </div>
+            <div class="service1  col-lg-3 col-md-6 col-sm-12">
+                <div class="single-service">
+                    <div class="png_desc">
+                    <img class="_png" src="https://www.spiriit.com/app/uploads/2021/02/red_star.svg">
+                    </div>
+                     {% if content.service_title %}
+                        <div {{region_attribute.service_title.addClass('service-title')}}>
+                                {{ content.service_title }}
+                        </div>
+                    {% endif %}
+
+                    {% if content.service_desc %}
+                        <p {{region_attribute.service_desc.addClass('service-desc')}}>
+                                {{ content.service_desc }}
+                        </p>
+                    {% endif %}
+                    
+                    <div class="read-more">
+
+                    {% if content.more_link %}
+                        <a {{region_attribute.more_link.addClass('more-link')}}>
+                                {{ content.more_link }}
+                        </a>
+                    {% endif %}
+                         <svg class="svg" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12h16m-7-7l7 7l-7 7"/></svg>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="service1 col-lg-3 col-md-6 col-sm-12">
+                <div class="single-service">
+                    <div class="png_desc">
+                    <img class="_png" src="https://www.spiriit.com/app/uploads/2021/02/green_star.svg">
+                    </div>
+                     {% if content.service_title %}
+                        <div {{region_attribute.service_title.addClass('service-title')}}>
+                                {{ content.service_title }}
+                        </div>
+                    {% endif %}
+
+                    {% if content.service_desc %}
+                        <p {{region_attribute.service_desc.addClass('service-desc')}}>
+                                {{ content.service_desc }}
+                        </p>
+                    {% endif %}
+                    
+                    <div class="read-more">
+
+                    {% if content.more_link %}
+                        <a {{region_attribute.more_link.addClass('more-link')}}>
+                                {{ content.more_link }}
+                        </a>
+                    {% endif %}
+                         <svg class="svg" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12h16m-7-7l7 7l-7 7"/></svg>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="service1 col-lg-3 col-md-6 col-sm-12">
+                <div class="single-service">
+                    <div class="png_desc">
+                    <img class="_png" src="https://www.spiriit.com/app/uploads/2021/02/purple_star.svg">
+                    </div>
+                     {% if content.service_title %}
+                        <div {{region_attribute.service_title.addClass('service-title')}}>
+                                {{ content.service_title }}
+                        </div>
+                    {% endif %}
+
+                    {% if content.service_desc %}
+                        <p {{region_attribute.service_desc.addClass('service-desc')}}>
+                                {{ content.service_desc }}
+                        </p>
+                    {% endif %}
+                    
+                    <div class="read-more">
+
+                    {% if content.more_link %}
+                        <a {{region_attribute.more_link.addClass('more-link')}}>
+                                {{ content.more_link }}
+                        </a>
+                    {% endif %}
+                         <svg class="svg" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12h16m-7-7l7 7l-7 7"/></svg>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
