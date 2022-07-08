@@ -12,7 +12,7 @@ use Drupal\bootstrap_styles\StylesGroup\StylesGroupManager;
  * 
  * @Layout(
  *  id = "spiriit_expertise_section_layout",
- *  label = @Translation("Spiriit expertise section"),
+ *  label = @Translation(" rod_mod Spiriit expertise section"),
  *  category = @Translation("rod_mod"),
  *  path = "layouts/sections/spiriit",
  *  template = "rod-mod-expertise-section",

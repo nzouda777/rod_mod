@@ -117,3 +117,10 @@ rod-mod-spiriit-services-teaser:
       layouts/css/spiriit/rod-mod-spiriit-services-teaser.css: {}
   js:
     layouts/js/spiriit/rod-mod-spiriit-services-teaser.js: {}
+
+rod-mod-spiriit-ressource-section:
+  css:
+    theme:
+      layouts/css/spiriit/rod-mod-spiriit-ressource-section.css: {}
+  js:
+    layouts/js/spiriit/rod-mod-spiriit-ressource-section.js: {}

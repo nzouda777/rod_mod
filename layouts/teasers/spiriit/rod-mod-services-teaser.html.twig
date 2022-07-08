@@ -5,7 +5,11 @@
             <div class="service1  col-lg-3 col-md-6 col-sm-12">
                 <div class="single-service">
                     <div class="png_desc">
-                    <img class="_png" src="https://www.spiriit.com/app/uploads/2021/02/yellow_star.svg" data-src="https://www.spiriit.com/app/uploads/2021/02/yellow_star.svg" data-srcset="https://www.spiriit.com/app/uploads/2021/02/yellow_star.svg 1280w">
+                         {% if content.service_img %}
+                            <div {{region_attribute.service_img.addClass('_png')}}>
+                                {{ content.service_img }}
+                            </div>
+                        {% endif %}
                     </div>
                     {% if content.service_title %}
                         <div {{region_attribute.service_title.addClass('service-title')}}>
@@ -35,7 +39,11 @@
             <div class="service1  col-lg-3 col-md-6 col-sm-12">
                 <div class="single-service">
                     <div class="png_desc">
-                    <img class="_png" src="https://www.spiriit.com/app/uploads/2021/02/red_star.svg">
+                        {% if content.service_img %}
+                            <div {{region_attribute.service_img.addClass('_png')}}>
+                                {{ content.service_img }}
+                            </div>
+                        {% endif %}
                     </div>
                      {% if content.service_title %}
                         <div {{region_attribute.service_title.addClass('service-title')}}>
@@ -64,7 +72,11 @@
             <div class="service1 col-lg-3 col-md-6 col-sm-12">
                 <div class="single-service">
                     <div class="png_desc">
-                    <img class="_png" src="https://www.spiriit.com/app/uploads/2021/02/green_star.svg">
+                        {% if content.service_img %}
+                            <div {{region_attribute.service_img.addClass('_png')}}>
+                                {{ content.service_img }}
+                            </div>
+                        {% endif %}
                     </div>
                      {% if content.service_title %}
                         <div {{region_attribute.service_title.addClass('service-title')}}>
@@ -93,7 +105,11 @@
             <div class="service1 col-lg-3 col-md-6 col-sm-12">
                 <div class="single-service">
                     <div class="png_desc">
-                    <img class="_png" src="https://www.spiriit.com/app/uploads/2021/02/purple_star.svg">
+                        {% if content.service_img %}
+                            <div {{region_attribute.service_img.addClass('_png')}}>
+                                {{ content.service_img }}
+                            </div>
+                        {% endif %}
                     </div>
                      {% if content.service_title %}
                         <div {{region_attribute.service_title.addClass('service-title')}}>

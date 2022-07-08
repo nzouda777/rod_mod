@@ -1,0 +1,201 @@
+{% if content %}
+<section class="ressources-section-handler">
+    <div class="container">
+        {% if content.section_name %}
+            <div {{ region_attributes.section_name.addClass('setion-name') }}>
+                {{ content.section_name }}
+            </div>
+        {% endif %}
+        <div class="row">
+        {% if content.section_title %}
+            <div {{ region_attributes.section_title.addClass('col-lg-6 col-md-12 setion-title') }}>
+                {{ content.section_title }}
+            </div>
+        {% endif %}
+            <div class="col-lg-5 btn-handler">
+        {% if content.say_more_btn %}
+            <a {{ region_attributes.say_more_btn.addClass('say-more-btn') }}>
+                {{ content.say_more_btn }}
+            </a>
+        {% endif %}
+            </div>
+        </div>
+        <div class="row">
+            <div class="ressources-list col-lg-7">
+                
+                <article class="single-ressource ">
+                    <ul class="list-handler">
+                        <li class="element">
+                            {% if content.card_link %}
+                                <a {{ region_attributes.card_link.addClass('linker') }}>
+                                    {{ content.section_name }}
+                                </a>
+                            {% endif %}
+                        </li>
+                        <li class="element">
+                            {% if content.card_link %}
+                                <a {{ region_attributes.card_link.addClass('linker') }}>
+                                    {{ content.section_name }}
+                                </a>
+                            {% endif %}
+                        </li>
+                        <li class="element">
+                            {% if content.card_link %}
+                                <a {{ region_attributes.card_link.addClass('linker') }}>
+                                    {{ content.section_name }}
+                                </a>
+                            {% endif %}
+                        </li>
+                        <li class="element">
+                            {% if content.card_link %}
+                                <a {{ region_attributes.card_link.addClass('linker') }}>
+                                    {{ content.section_name }}
+                                </a>
+                            {% endif %}
+                        </li>
+                    </ul>
+                        {% if content.content_link %}
+                                <a {{ region_attributes.content_link.addClass('link-content') }}>
+                                    {{ content.content_link }}
+                                </a>
+                            {% endif %}
+                    <div class="view-btn">
+                        <a href="#" class="view">></a>
+                    </div>
+                    <div class="info">
+                        <div class="post-date">
+                            {% if content.post_date %}
+                                <div {{ region_attributes.post_date.addClass('post-date') }}>
+                                    {{ content.post_date }}
+                                </div>
+                            {% endif %}
+                        </div>  ° 
+                        <div class="author">
+                            par
+                            {% if content.lutin_name %}
+                                <a {{ region_attributes.lutin_name.addClass('author-name') }}>
+                                    {{ content.lutin_name }}
+                                </a>
+                            {% endif %}
+                        </div>
+                    </div> 
+                </article>
+                <article class="single-ressource ">
+                    <ul class="list-handler">
+                        <li class="element">
+                            {% if content.card_link %}
+                                <a {{ region_attributes.card_link.addClass('linker') }}>
+                                    {{ content.section_name }}
+                                </a>
+                            {% endif %}
+                        </li>
+                        <li class="element">
+                            {% if content.card_link %}
+                                <a {{ region_attributes.card_link.addClass('linker') }}>
+                                    {{ content.section_name }}
+                                </a>
+                            {% endif %}
+                        </li>
+                        <li class="element">
+                            {% if content.card_link %}
+                                <a {{ region_attributes.card_link.addClass('linker') }}>
+                                    {{ content.section_name }}
+                                </a>
+                            {% endif %}
+                        </li>
+                        <li class="element">
+                            {% if content.card_link %}
+                                <a {{ region_attributes.card_link.addClass('linker') }}>
+                                    {{ content.section_name }}
+                                </a>
+                            {% endif %}
+                        </li>
+                    </ul>
+                        {% if content.content_link %}
+                                <a {{ region_attributes.content_link.addClass('link-content') }}>
+                                    {{ content.content_link }}
+                                </a>
+                            {% endif %}
+                    <div class="view-btn">
+                        <a href="#" class="view">></a>
+                    </div>
+                    <div class="info">
+                        <div class="post-date">
+                            {% if content.post_date %}
+                                <div {{ region_attributes.post_date.addClass('post-date') }}>
+                                    {{ content.post_date }}
+                                </div>
+                            {% endif %}
+                        </div>  ° 
+                        <div class="author">
+                            par
+                            {% if content.lutin_name %}
+                                <a {{ region_attributes.lutin_name.addClass('author-name') }}>
+                                    {{ content.lutin_name }}
+                                </a>
+                            {% endif %}
+                        </div>
+                    </div> 
+                </article>
+                <article class="single-ressource ">
+                    <ul class="list-handler">
+                        <li class="element">
+                            {% if content.card_link %}
+                                <a {{ region_attributes.card_link.addClass('linker') }}>
+                                    {{ content.section_name }}
+                                </a>
+                            {% endif %}
+                        </li>
+                        <li class="element">
+                            {% if content.card_link %}
+                                <a {{ region_attributes.card_link.addClass('linker') }}>
+                                    {{ content.section_name }}
+                                </a>
+                            {% endif %}
+                        </li>
+                        <li class="element">
+                            {% if content.card_link %}
+                                <a {{ region_attributes.card_link.addClass('linker') }}>
+                                    {{ content.section_name }}
+                                </a>
+                            {% endif %}
+                        </li>
+                        <li class="element">
+                            {% if content.card_link %}
+                                <a {{ region_attributes.card_link.addClass('linker') }}>
+                                    {{ content.section_name }}
+                                </a>
+                            {% endif %}
+                        </li>
+                    </ul>
+                        {% if content.content_link %}
+                                <a {{ region_attributes.content_link.addClass('link-content') }}>
+                                    {{ content.content_link }}
+                                </a>
+                            {% endif %}
+                    <div class="view-btn">
+                        <a href="#" class="view">></a>
+                    </div>
+                    <div class="info">
+                        <div class="post-date">
+                            {% if content.post_date %}
+                                <div {{ region_attributes.post_date.addClass('post-date') }}>
+                                    {{ content.post_date }}
+                                </div>
+                            {% endif %}
+                        </div>  ° 
+                        <div class="author">
+                            par
+                            {% if content.lutin_name %}
+                                <a {{ region_attributes.lutin_name.addClass('author-name') }}>
+                                    {{ content.lutin_name }}
+                                </a>
+                            {% endif %}
+                        </div>
+                    </div> 
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}

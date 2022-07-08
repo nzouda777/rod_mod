@@ -12,7 +12,7 @@ use Drupal\bootstrap_styles\StylesGroup\StylesGroupManager;
  * 
  * @Layout(
  *  id = "spiriit_services_teaser",
- *  label = @Translation("Spiriit Services Teaser"),
+ *  label = @Translation("rod_mod Spiriit Services Teaser"),
  *  category = @Translation("rod_mod"),
  *  path = "layouts/teasers/spiriit",
  *  template = "rod-mod-services-teaser",
@@ -27,6 +27,9 @@ use Drupal\bootstrap_styles\StylesGroup\StylesGroupManager;
  *      },
  *      "more_link" = {
  *          "label" = @Translation("set the link that leads to this services brand")
+ *      },
+ *      "service_img" = {
+ *          "label" = @Translation("set a service picture") 
  *      }
  *  }
  * )
@@ -74,6 +77,12 @@ use Drupal\bootstrap_styles\StylesGroup\StylesGroupManager;
                             'value' => ''
                         ]
                     ],
+                    'service_img' => [
+                        'text_html' => [
+                            'label' => 'definr une descriptive pour le service',
+                            'fids' => []
+                        ]
+                    ]
                 ]
             ]
         ];
