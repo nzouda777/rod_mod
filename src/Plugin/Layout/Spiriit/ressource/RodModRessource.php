@@ -50,7 +50,19 @@ use Drupal\bootstrap_styles\StylesGroup\StylesGroupManager;
 
     public function __construct(array $configuration, $plugin_id, $plugin_definition, StylesGroupManager $style_group_manager){
         parent:: __construct($configuration, $plugin_id, $plugin_definition, $style_group_manager);
-        #$this->pluginDefinition->set('icon', drupal_get_path('module', 'rod_mod') . "/icones/sections/spiriitressource.jpeg");
+        $this->pluginDefinition->set('icon', drupal_get_path('module', 'rod_mod') . "/icones/sections/spiriitressource.jpeg");
+     }
+     /**
+      * {@inheritdoc}
+      * @see \Drupal\formatage_models\Plugin\Layout\FormatageModels::build()
+      */
+
+      public function build(array $regions){
+        //to make auto-generated mehod stub
+         $build = parent::build($regions);
+         FormatageModelsThemes::formatSettingValues($build);
+
+         return $build;
      }
      /**
       * {@inheritdoc}

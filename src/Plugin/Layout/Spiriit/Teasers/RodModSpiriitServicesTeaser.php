@@ -45,6 +45,18 @@ use Drupal\bootstrap_styles\StylesGroup\StylesGroupManager;
         parent::__construct($configuration, $plugin_id, $plugin_definition, $style_group_manager);
         $this->pluginDefinition->set('icon', drupal_get_path('module', 'rod_mod') . "/icones/teasers/spiriitservice.jpeg");
      }
+     /**
+      * {@inheritdoc}
+      * @see \Drupal\formatage_models\Plugin\Layout\FormatageModels::build()
+      */
+
+      public function build(array $regions){
+        //to make auto-generated mehod stub
+         $build = parent::build($regions);
+         FormatageModelsThemes::formatSettingValues($build);
+
+         return $build;
+     }
 
      /**
       * {@inheritdoc}
