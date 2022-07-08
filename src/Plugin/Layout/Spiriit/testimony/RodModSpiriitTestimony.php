@@ -50,6 +50,18 @@ use Drupal\bootstrap_styles\StylesGroup\StylesGroupManager;
      }
      /**
       * {@inheritdoc}
+      * @see \Drupal\formatage_models\Plugin\Layout\FormatageModels::build()
+      */
+
+      public function build(array $regions){
+         //to make auto-generated mehod stub
+          $build = parent::build($regions);
+          FormatageModelsThemes::formatSettingValues($build);
+
+          return $build;
+      }
+     /**
+      * {@inheritdoc}
       */
       public function defaultConfiguration(){
          return parent::defaultConfiguration() + [
