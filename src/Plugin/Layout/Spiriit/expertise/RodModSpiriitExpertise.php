@@ -30,7 +30,7 @@ use Drupal\bootstrap_styles\StylesGroup\StylesGroupManager;
  *      },
  *      "lutin_img" = {
  *          "label" = @Translation("set a descriptive picture")
- *      },
+ *      }
  *  }
  * )
  */
@@ -91,7 +91,7 @@ use Drupal\bootstrap_styles\StylesGroup\StylesGroupManager;
                      ]
                   ],
                   "lutin_img" => [
-                     'img_bg' => [
+                     'text_html' => [
                         'label' => 'ajouter une image ',
                         'fids' => []
                      ]

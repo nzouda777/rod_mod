@@ -101,7 +101,7 @@ use Drupal\bootstrap_styles\StylesGroup\StylesGroupManager;
                            'value' =>''
                         ]
                      ],
-                     'conent_link' => [
+                     'content_link' => [
                         'text_html' => [
                            'label' => 'configurer le titre de la carte qui est un lien vers le contenu',
                            'value' =>''

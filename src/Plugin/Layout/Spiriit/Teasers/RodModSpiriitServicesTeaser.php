@@ -90,8 +90,8 @@ use Drupal\bootstrap_styles\StylesGroup\StylesGroupManager;
                         ]
                     ],
                     'service_img' => [
-                        'text_html' => [
-                            'label' => 'definr une descriptive pour le service',
+                        'img_bg' => [
+                            'label' => 'definr une image descriptive pour le service',
                             'fids' => []
                         ]
                     ]
